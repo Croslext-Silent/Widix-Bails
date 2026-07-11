@@ -1,7 +1,7 @@
-# WhatsApp Baileys Obito
+# WhatsApp Baileys Widix Flowers 
 
 <p align="center">
-  <img src="https://files.catbox.moe/v9rme1.jpg" alt="Thumbnail" />
+  <img src="https://files.catbox.moe/761t32.jpg" alt="Thumbnail" />
 </p>
 
 WhatsApp Baileys is an open-source library designed to help developers build automation solutions and integrations with WhatsApp efficiently and directly. Using websocket technology without the need for a browser, this library supports a wide range of features such as message management, chat handling, group administration, as well as interactive messages and action buttons for a more dynamic user experience.
@@ -68,8 +68,8 @@ Send multiple images in a single album message:
 ```javascript
 await sock.sendMessage(target, { 
     albumMessage: [
-        { image: cihuy, caption: "#OBITO" },
-        { image: { url: "URL IMAGE" }, caption: "#OBITO" }
+        { image: cihuy, caption: "#WIDIX" },
+        { image: { url: "URL IMAGE" }, caption: "#WIDIX" }
     ] 
 }, { quoted: m });
 ```
@@ -81,8 +81,8 @@ Create and send WhatsApp event invitations:
 await sock.sendMessage(target, { 
     eventMessage: { 
         isCanceled: false, 
-        name: "#OBITO", 
-        description: "#OBITO", 
+        name: "#WIDIX", 
+        description: "#WIDIX", 
         location: { 
             degreesLatitude: 0, 
             degreesLongitude: 0, 
@@ -102,14 +102,14 @@ Display poll results with vote counts:
 ```javascript
 await sock.sendMessage(target, { 
     pollResultMessage: { 
-        name: "#OBITO", 
+        name: "#WIDIX", 
         pollVotes: [
             {
-                optionName: "#OBITO",
+                optionName: "#WIDIX",
                 optionVoteCount: "112233"
             },
             {
-                optionName: "#OBITO",
+                optionName: "#WIDIX",
                 optionVoteCount: "1"
             }
         ] 
@@ -123,9 +123,9 @@ Send basic interactive messages with copy button functionality:
 ```javascript
 await sock.sendMessage(target, {
     interactiveMessage: {
-        header: "#OBITO",
-        title: "#OBITO",
-        footer: "telegram: @topsdominic ",
+        header: "#WIDIX",
+        title: "#WIDIX",
+        footer: "telegram: @WidixFlow ",
         buttons: [
             {
                 name: "cta_copy",
