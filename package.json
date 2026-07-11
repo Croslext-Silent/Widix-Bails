@@ -1,18 +1,18 @@
 {
-    "name": "Cogils/Baileys",
+    "name": "Widix-Bails",
     "type": "module",
     "version": "8.4.1",
-    "description": "WhatsApp API Modification By Topsdominic",
+    "description": "WhatsApp API Modification By WidixFlow",
     "keywords": [
     "whatsapp",
     "baileys"
     ],
-    "homepage": "https://github.com/Cogils/Baileys",
+    "homepage": "https://github.com/Widix-Bails",
     "repository": {
-        "url": "https://github.com/Cogils/Baileys"
+        "url": "https://github.com/Widix-Bails"
     },
     "license": "MIT",
-    "author": "topsdominic",
+    "author": "WidixFlow",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
     "files": [
